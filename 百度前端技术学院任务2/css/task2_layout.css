@@ -1,0 +1,94 @@
+header,nav,article{display: block;}
+
+.body{
+
+    font-family: "Helvetica", "Arial", sans-serif;
+    background-color: antiquewhite;
+
+}
+
+
+header{
+
+    margin:5em 15%;
+    box-shadow: 0px 0px 10px #06c;
+    border:.2em groove;
+    border-top-width:.3em;
+
+
+}
+header nav{
+
+    padding-left: 15%;
+}
+ul{
+    width: 100%;
+    overflow: hidden;
+    border-left-style: solid;
+    border-left-width:0em;
+}
+header nav li{
+    display: inline;
+}
+#a1{
+    border-left: .1em solid;
+    border-right: .1em solid;
+}
+#a2{
+    border-right: .1em solid;
+    border-left: 0em;
+}
+header nav li a{
+    display: block;
+    float: left;
+    padding: .5em 2em;
+    border-left: .1em solid;
+}
+ #h1{
+    text-align: center;
+    padding-left: 0px;
+}
+.article1{
+    padding-left: 2em;
+    margin: 3em 15%;
+    border: 1px dotted;
+    box-shadow:inset 0px 0px 10px blue;
+}
+#paragraph{
+    text-align: center;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form{
+    margin: 3em 15%;
+    border: .5em ridge;
+    box-shadow: 15px 15px 15px  blue;
+}
+#form .new{
+    padding-left: 200px;
+}
+#form .waring{
+    padding-left: 312px;
+    font-style: oblique;
+}
+#form .ps{
+    padding-left: 228px;
+}
+#form .box{
+    padding-left: 270px;
+}
+#form #sub{
+    display:block;
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    border-radius:10px ;
+}
+
+
